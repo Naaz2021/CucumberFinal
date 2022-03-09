@@ -1,0 +1,150 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "user should check for skyblue background button exists",
+        "description": "",
+        "id": "user-should-check-for-skyblue-background-button--validation;user-should-check-for-skyblue-background-button-exists",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3207926500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "When user is on the techfios page",
+            "match": {
+              "location": "Loginstepsdefinition.user_is_on_the_techfios_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21899,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user checks set SkyBlue Background button exists",
+            "match": {
+              "location": "Loginstepsdefinition.user_checks_set_skyblue_background_button_exists()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 126143300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on the set skyblue background button",
+            "match": {
+              "location": "Loginstepsdefinition.user_clicks_on_the_set_skyblue_background_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the background color will change to skyblue",
+            "match": {
+              "location": "Loginstepsdefinition.the_background_color_will_change_to_skyblue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Scenario1"
+          }
+        ]
+      }
+    ],
+    "name": "user should check for Skyblue background button  validation",
+    "description": "",
+    "id": "user-should-check-for-skyblue-background-button--validation",
+    "keyword": "Feature",
+    "uri": "features/skyblue.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "user should check for white background button exists",
+        "description": "",
+        "id": "user-should-check-for-white-background-button-validation;user-should-check-for-white-background-button-exists",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2172459500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "when user is on techfios page",
+            "match": {
+              "location": "Loginstep2.user_is_on_the_techfios_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 38899,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user checks set white background button exists",
+            "match": {
+              "location": "Loginstep2.user_checks_set_white_background_button_exists()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92516900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on the set white background button",
+            "match": {
+              "location": "Loginstep2.user_clicks_set_white_background_button_exists()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the background color will change to white",
+            "match": {
+              "location": "Loginstep2.background_color_will_change_to_white()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Scenario2"
+          }
+        ]
+      }
+    ],
+    "name": "user should check for white background button validation",
+    "description": "",
+    "id": "user-should-check-for-white-background-button-validation",
+    "keyword": "Feature",
+    "uri": "features/white.feature"
+  }
+]
